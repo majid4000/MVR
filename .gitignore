@@ -1,0 +1,99 @@
+# ------ Note -----------------------------------------------------------------
+# Ignore all files in the root directory
+#*
+# include directory
+#!*/
+
+# ------ ignore normal --------------------------------------------------------
+# Ignore specific folder names
+.git/
+.vs
+.vscode/
+.idea/
+.gradle
+
+.DS_Store
+.DS_Store/
+.ipynb_checkpoints/
+__pycache__/
+
+# ------ ignore sepcific file -------------------------------------------------
+# ------ ming
+*.vcxproj.user
+# *.vcxproj.filters
+package-lock.json
+yarn.lock
+
+# ------ image
+*.jpg
+*.png
+*.jpeg
+
+# ------ java
+*.class
+
+# ------ specify
+*.db
+*.exe
+*.dll
+*.weights
+*.pb
+*.tar
+*.cache
+
+# ------ ignore sepcific fold -------------------------------------------------
+# ------ build
+run/
+build/
+.build/
+out/
+bin/
+lib/
+x64/
+Debug/
+cmake-build-debug/
+
+# ------ develop 
+devel/
+install/
+weights/
+backups/
+datas/
+images/
+logs/
+logs
+run/
+run
+
+# ------ ros
+.catkin_workspace*
+
+# ------ node
+node_modules/
+
+# ------ include sepcific fold ------------------------------------------------
+# ------ Include the specified directory
+!script/
+!src/
+!include/
+
+# ------ include sepcific files -----------------------------------------------
+# ------ Specify files not to ignore
+!.gitignore
+!*.md
+!*.h
+!*.c
+!*.cpp
+!*.py
+!*.ipynb
+!*.sh
+!CMakeLists.txt
+
+
+# fotric/
+projects/YOLOv6/
+projects/yolov5/
+
+#build_et/
+
+data/
